@@ -1,0 +1,34 @@
+Things I have done.
+
+1. First I have saved a model and imported in Spyder via JObLib
+2. Then I have created an API and implemented API
+3. Then I have run fast api from cmd
+					-> command  -Uvicorn ml_app:app
+
+4. Then I have open an link -> http://127.0.0.1:8000
+
+5. I have created two files where,
+		* IN ml_api I have passed Json as input like as
+			
+			{
+				  "Age": 52,
+				  "Flight_Distance": 160,
+			  	"Inflight_wifi_service": 5,
+ 				 "Departure_Arrival_time_convenient": 4,
+ 				 "Ease_of_Online_booking": 4,
+ 				 "Gate_location": 3,
+ 				 "Food_and_drink": 4,
+ 				 "Online_boarding": 5,
+ 				 "Seat_comfort": 5,
+ 				 "Inflight_entertainment": 3,
+ 				 "On_board_service": 5,
+ 				 "Leg_room_service": 4,
+ 		 		"Baggage_handling": 4,
+  				"Checkin_service": 3,
+  				"Inflight_service": 5,
+ 				 "Cleanliness": 5,
+ 				 "Departure_Delay_in_Minutes": 50,
+  				"Arrival_Delay_in_Minutes": 44
+			}
+ 
+		* In ml_api2 file, I have passed as an array and give inputs from -> http://127.0.0.1:8000/docs#/
